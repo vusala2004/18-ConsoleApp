@@ -20,9 +20,9 @@ namespace Service.Services.Implementations
 
         public Group Create(Group group)
         {
-           group.Id = _count;
+            group.Id = _count;
 
-           groupRepository.Create(group);
+            groupRepository.Create(group);
 
             _count++;
             return group;
