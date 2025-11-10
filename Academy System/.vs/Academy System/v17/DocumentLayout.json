@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5AA74EC8-3673-422B-A6BA-28A29731DBAE}|Academy Presentation\\Academy Presentation.csproj|c:\\users\\acer\\onedrive\\desktop\\18-consoleappp\\academy system\\academy presentation\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AA74EC8-3673-422B-A6BA-28A29731DBAE}|Academy Presentation\\Academy Presentation.csproj|solutionrelative:academy presentation\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5AA74EC8-3673-422B-A6BA-28A29731DBAE}|Academy Presentation\\Academy Presentation.csproj|c:\\users\\acer\\onedrive\\desktop\\18-consoleappp\\academy system\\academy presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5AA74EC8-3673-422B-A6BA-28A29731DBAE}|Academy Presentation\\Academy Presentation.csproj|solutionrelative:academy presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8631B474-97B1-45A1-9A2E-DE17DDCB2CF9}|Service\\Service.csproj|c:\\users\\acer\\onedrive\\desktop\\18-consoleappp\\academy system\\service\\services\\implementations\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8631B474-97B1-45A1-9A2E-DE17DDCB2CF9}|Service\\Service.csproj|solutionrelative:service\\services\\implementations\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5AA74EC8-3673-422B-A6BA-28A29731DBAE}|Academy Presentation\\Academy Presentation.csproj|c:\\users\\acer\\onedrive\\desktop\\18-consoleappp\\academy system\\academy presentation\\helpers\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5AA74EC8-3673-422B-A6BA-28A29731DBAE}|Academy Presentation\\Academy Presentation.csproj|solutionrelative:academy presentation\\helpers\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C554E533-EEEF-4DA4-B0DC-93FD461B782F}|Repository\\Repository.csproj|c:\\users\\acer\\onedrive\\desktop\\18-consoleappp\\academy system\\repository\\repostories\\implementations\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C554E533-EEEF-4DA4-B0DC-93FD461B782F}|Repository\\Repository.csproj|solutionrelative:repository\\repostories\\implementations\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5AA74EC8-3673-422B-A6BA-28A29731DBAE}|Academy Presentation\\Academy Presentation.csproj|c:\\users\\acer\\onedrive\\desktop\\18-consoleappp\\academy system\\academy presentation\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA74EC8-3673-422B-A6BA-28A29731DBAE}|Academy Presentation\\Academy Presentation.csproj|solutionrelative:academy presentation\\controllers\\groupcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8631B474-97B1-45A1-9A2E-DE17DDCB2CF9}|Service\\Service.csproj|c:\\users\\acer\\onedrive\\desktop\\18-consoleappp\\academy system\\service\\services\\implementations\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8631B474-97B1-45A1-9A2E-DE17DDCB2CF9}|Service\\Service.csproj|solutionrelative:service\\services\\implementations\\groupservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8631B474-97B1-45A1-9A2E-DE17DDCB2CF9}|Service\\Service.csproj|c:\\users\\acer\\onedrive\\desktop\\18-consoleappp\\academy system\\service\\services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8631B474-97B1-45A1-9A2E-DE17DDCB2CF9}|Service\\Service.csproj|solutionrelative:service\\services\\implementations\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AA74EC8-3673-422B-A6BA-28A29731DBAE}|Academy Presentation\\Academy Presentation.csproj|c:\\users\\acer\\onedrive\\desktop\\18-consoleappp\\academy system\\academy presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5AA74EC8-3673-422B-A6BA-28A29731DBAE}|Academy Presentation\\Academy Presentation.csproj|solutionrelative:academy presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C554E533-EEEF-4DA4-B0DC-93FD461B782F}|Repository\\Repository.csproj|c:\\users\\acer\\onedrive\\desktop\\18-consoleappp\\academy system\\repository\\repostories\\implementations\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C554E533-EEEF-4DA4-B0DC-93FD461B782F}|Repository\\Repository.csproj|solutionrelative:repository\\repostories\\implementations\\grouprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,24 +34,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Service\\Services\\Implementations\\StudentService.cs",
+              "RelativeDocumentMoniker": "Service\\Services\\Implementations\\StudentService.cs",
+              "ToolTip": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Service\\Services\\Implementations\\StudentService.cs",
+              "RelativeToolTip": "Service\\Services\\Implementations\\StudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T19:16:05.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GroupController.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Academy Presentation\\Controllers\\GroupController.cs",
               "RelativeDocumentMoniker": "Academy Presentation\\Controllers\\GroupController.cs",
               "ToolTip": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Academy Presentation\\Controllers\\GroupController.cs",
               "RelativeToolTip": "Academy Presentation\\Controllers\\GroupController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCgAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-10T13:12:21.624Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Academy Presentation\\Program.cs",
               "RelativeDocumentMoniker": "Academy Presentation\\Program.cs",
@@ -59,31 +76,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Helper.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Academy Presentation\\Helpers\\Helper.cs",
               "RelativeDocumentMoniker": "Academy Presentation\\Helpers\\Helper.cs",
               "ToolTip": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Academy Presentation\\Helpers\\Helper.cs",
               "RelativeToolTip": "Academy Presentation\\Helpers\\Helper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T07:08:37.501Z"
+              "WhenOpened": "2025-11-10T07:08:37.501Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "GroupService.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Service\\Services\\Implementations\\GroupService.cs",
               "RelativeDocumentMoniker": "Service\\Services\\Implementations\\GroupService.cs",
               "ToolTip": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Service\\Services\\Implementations\\GroupService.cs",
               "RelativeToolTip": "Service\\Services\\Implementations\\GroupService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-09T17:31:30.343Z"
+              "WhenOpened": "2025-11-09T17:31:30.343Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GroupRepository.cs",
               "DocumentMoniker": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Repository\\Repostories\\Implementations\\GroupRepository.cs",
               "RelativeDocumentMoniker": "Repository\\Repostories\\Implementations\\GroupRepository.cs",
