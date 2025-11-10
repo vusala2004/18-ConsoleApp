@@ -25,7 +25,6 @@ namespace Service.Services.Implementations
            groupRepository.Create(group);
 
             _count++;
-
             return group;
 
         }
