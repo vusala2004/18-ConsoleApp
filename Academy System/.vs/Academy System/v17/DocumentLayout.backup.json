@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Academy Presentation\\Controllers\\GroupController.cs",
               "ToolTip": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Academy Presentation\\Controllers\\GroupController.cs",
               "RelativeToolTip": "Academy Presentation\\Controllers\\GroupController.cs",
-              "ViewState": "AgIAALkAAAAAAAAAAAAowMgAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAPoAAAAAAAAAAAAAAAMBAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-11T12:46:50.739Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Service\\Services\\Implementations\\StudentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T09:00:55.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T09:00:55.668Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Academy Presentation\\Controllers\\StudentController.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAkwFsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T08:59:03.225Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T08:59:03.225Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "Service\\Services\\Interfaces\\IStudentService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T09:02:22.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T09:02:22.482Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "Academy Presentation\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-10T07:07:22.087Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-10T07:07:22.087Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "Academy Presentation\\Helpers\\Menus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:24:02.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T12:24:02.624Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "Service\\Services\\Implementations\\GroupService.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAEsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T12:00:04.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T12:00:04.222Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "Repository\\Repostories\\Implementations\\StudentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T09:00:21.752Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T09:00:21.752Z"
             }
           ]
         }

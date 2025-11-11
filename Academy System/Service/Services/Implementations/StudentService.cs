@@ -91,7 +91,7 @@ namespace Service.Services.Implementations
 
             var filtered = studentRepository.datas.Where(s => s.GroupId == groupId).ToList();
 
-            return filtered; // filterlənmiş siyahını qaytar
+            return filtered;
         }
 
     }
