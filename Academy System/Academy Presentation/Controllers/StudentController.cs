@@ -1,6 +1,7 @@
 ﻿using Academy_Presentation.Helpers;
 using Domain.Entities;
 using Service.Services.Implementations;
+using Service.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -66,12 +67,76 @@ namespace Academy_Presentation.Controllers
                 goto GroupId;
             }
         }
-        public void UpdateStudent();{}
-          public void Delete() { }
-        public void GetById() { }
+        //public void UpdateStudent();{}
+          public void Delete() 
+        {
+            {
+            StudentId: Helper.PrintConsole(ConsoleColor.Green, "Add Group Id:");
+                string studentId = Console.ReadLine();
+
+                int id;
+
+                bool isStudentId = int.TryParse(studentId, out id);
+
+                if (isStudentId)
+                {
+                    _studentService.Delete(id);
+                }
+                else
+                {
+                    Helper.PrintConsole(ConsoleColor.Red, "Add correct GroupId type");
+                    goto StudentId;
+                }
+            }
+        }
+        public void GetById()
+        {
+        StudentId: Helper.PrintConsole(ConsoleColor.Green, "Add Group Id:");
+            string studentId = Console.ReadLine();
+            int id;
+            bool isStudentId = int.TryParse(studentId, out id);
+            if (isStudentId)
+            {
+                Student student = _studentService.GetById(id);
+                if (student != null)
+                {
+                    Helper.PrintConsole(ConsoleColor.Cyan, $"Id: {student.Id}, Name: {student.Name}, Surname: {student.Surname}, Age: {student.Age},Group: {student.Group}");
+                }
+                else
+                {
+                    Helper.PrintConsole(ConsoleColor.Red, "Error: Group not found!");
+                    goto StudentId;
+                }
+            }
+            else
+            {
+                Helper.PrintConsole(ConsoleColor.Red, "Add correct GroupId type!");
+                goto StudentId;
+            }
+        }
         public void GetByAge() { }
         public void GetByGroupId() { }
-        public void Search() { }
+        public void Search() 
+        {
+            {
+            SearchText: Helper.PrintConsole(ConsoleColor.Blue, "Add Group search text");
+
+                string searchName = Console.ReadLine();
+                List<Student> students = _studentService.Search(searchName);
+                if (students.Count != 0)
+                {
+                    foreach (var student in students)
+                    {
+                        Helper.PrintConsole(ConsoleColor.Cyan, $"Id: {student.Id}, Name: {student.Name}, Surname: {student.Surname}, Age: {student.Age},Group: {student.Group}");
+                    }
+                }
+                else
+                {
+                    Helper.PrintConsole(ConsoleColor.Red, "Groups not found for search text!");
+                    goto SearchText;
+                }
+            }
+        }
 }
 }
 

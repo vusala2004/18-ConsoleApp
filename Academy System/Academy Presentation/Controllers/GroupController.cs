@@ -185,6 +185,8 @@ namespace Academy_Presentation.Controllers
         }
         public void GetByTeacher()
 
+      
+
         {
         TeacherName:
             Helper.PrintConsole(ConsoleColor.Green, "Add Group Teacher:");
@@ -194,7 +196,7 @@ namespace Academy_Presentation.Controllers
 
             if (isGroupTeacher)
             {
-                List<Group> groups = (List<Group>)_groupService.GetAllByTeacher(groupTeacher);
+                List<Group> groups = (List<Group>)_groupService.GetByTeacher(groupTeacher);
 
                 if (groupTeacher != null)
                 {
@@ -220,7 +222,9 @@ namespace Academy_Presentation.Controllers
             }
         }
 
-       public void GetByRoom()
+
+
+        public void GetByRoom()
         {
         RoomName:
             Helper.PrintConsole(ConsoleColor.Green, "Add Group Room:");

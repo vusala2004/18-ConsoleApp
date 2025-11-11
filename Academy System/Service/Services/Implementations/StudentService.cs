@@ -85,8 +85,8 @@ namespace Service.Services.Implementations
             return GetById(studentid);
         }
 
-        public List<Student> GetAllByGroupId(int groupId)
-        {
+       public List<Student> GetAllByGroupId(int groupId)
+       {
 
 
             var filtered = studentRepository.datas.Where(s => s.GroupId == groupId).ToList();
