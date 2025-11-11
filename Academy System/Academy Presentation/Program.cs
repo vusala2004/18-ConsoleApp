@@ -8,10 +8,14 @@ namespace Academy_Presentation
 {
     public class Program
     {
+        private static object studentcontroller;
+
         static void Main(string[] args)
         {
             GroupService groupService = new();
             GroupController groupController = new();
+            StudentService studentService = new();
+            StudentController studentController = new();
 
 
             Helper.PrintConsole(ConsoleColor.Blue, "Select one option");
@@ -27,11 +31,65 @@ namespace Academy_Presentation
                     switch (selectTrueOption)
                     {
 
-                        case 1:
+                        case (int)Menus.CreateGroup:
                             groupController.Create();
                             break;
-                        case 2:
-                            groupController.Update();
+                        case (int)Menus.Updategroup:
+                                groupController.UpdateGroup();
+                            break;
+                        case(int)Menus.DeleteGroup:
+                                groupController.Delete();
+                            break;
+                            
+                        case (int)Menus.Getgroupbyid:
+                            groupController.GetById();
+                            break;
+                        case (int)Menus.Getallgroupsbyteacher:
+                            groupController.GetByTeacher();
+                            break;
+                            case (int)Menus.Getallgroupsbyroom:
+                            groupController.GetByRoom();
+                            break;
+                        case (int)Menus.Getallgroups:
+                            groupController.GetAll();   
+                            break;
+
+                        case (int)Menus.CreateStudent:
+                            studentController.Create();
+                            break;
+
+                        case (int)Menus.UpdateStudent:
+                            studentController.UpdateStudent();
+                            break;
+
+                        case (int)Menus.Getstudentbyid:
+                            studentController.GetById();
+                            break;
+
+                        case (int)Menus.Deletestudent:
+                            studentController.Delete();
+                            break;
+
+                        case (int)Menus.Getstudentsbyage:
+                            studentController.GetByAge();
+                            break;
+
+                        case (int)Menus.Getallstudentsbygroupid:
+                            studentController.GetByGroupId();
+                            break;
+
+                        case (int)Menus.Searchgroupsbyname:
+                            studentController.Search();
+                            break;
+
+                        case (int)Menus.Searchstudentsbyname:
+                            studentController.Search();
+                            break;
+
+                        
+
+                        default:
+                            Helper.PrintConsole(ConsoleColor.Red, "unknown option, please try again!");
                             break;
                     }
                 }
@@ -48,65 +106,7 @@ namespace Academy_Presentation
 
 
                       
-                                //case 3:
-                                //    groupController.Delete();
-                                //    break;
-
-                                //case 4:
-                                //    groupController.GetById();
-                                //    break;
-
-                                //case 5:
-                                //    groupController.GetByTeacher();
-                                //    break;
-
-                                //case 6:
-                                //    groupController.GetByRoom();
-                                //    break;
-
-                                //case 7:
-                                //    groupController.GetAll();
-                                //    break;
-
-                                // ===== STUDENT METHODS =====
-                                //case "8":
-                                //    studentController.Create();
-                                //    break;
-
-                                //case "9":
-                                //    studentController.Update();
-                                //    break;
-
-                                //case "10":
-                                //    studentController.GetById();
-                                //    break;
-
-                                //case "11":
-                                //    studentController.Delete();
-                                //    break;
-
-                                //case "12":
-                                //    studentController.GetByAge();
-                                //    break;
-
-                                //case "13":
-                                //    studentController.GetByGroupId();
-                                //    break;
-
-                                //case "14":
-                                //    groupController.Search();
-                                //    break;
-
-                                //case "15":
-                                //    studentController.Search();
-                                //    break;
-
-                                //case "0":
-                                //    return;
-
-                                //default:
-                                //    Helper.PrintConsole(ConsoleColor.Red, "Unknown option, please try again!");
-                                //    break;
+                               
                                 
 
 

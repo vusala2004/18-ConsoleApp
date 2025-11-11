@@ -32,6 +32,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Domain\\Domain.csproj"
+              },
               "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Service\\Service.csproj": {
                 "projectPath": "C:\\Users\\Acer\\OneDrive\\Desktop\\18-ConsoleAppp\\Academy System\\Service\\Service.csproj"
               }

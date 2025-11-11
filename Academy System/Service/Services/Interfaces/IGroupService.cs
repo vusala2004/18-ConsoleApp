@@ -12,6 +12,11 @@ namespace Service.Services.Interfaces
         Group Create(Group group);
         Group Update(int id, Group group);
         void Delete(int id);
-        Group GeyById(int id);
+        Group GetById(int id);
+        Group GetByTeacher(string groupTeacher);
+        Group GetByRoom(string groupRoom);
+        List<Group> GetAll();
+        List<Group> Search(string name);
+
     }
 }

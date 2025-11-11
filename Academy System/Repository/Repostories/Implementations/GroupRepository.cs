@@ -29,22 +29,38 @@ namespace Repository.Repostories.Implementations
 
         public void Delete(Group data)
         {
-            throw new NotImplementedException();
+            AppDpContext<Group>.datas.Remove(data);
         }
 
         public Group Get(Predicate<Group> predicate)
         {
-            throw new NotImplementedException();
+            return predicate != null ? AppDpContext<Group>.datas.Find(predicate) : null;
         }
 
-        public List<Group> GetAll(Predicate<Group> predicate)
+        public List<Group> GetAll(Predicate<Group> predicate = null)
         {
-            throw new NotImplementedException();
-        }
+            return predicate != null ? AppDpContext<Group>.datas.FindAll(predicate) :AppDpContext<Group>.datas;
 
-        public void Update(Group data)
-        {
-            throw new NotImplementedException();
+        }
+        public void Update(Group data) { 
+        
+        
+        
+            Group dpGroup = Get(g => g.Id == data.Id);
+
+            if (dpGroup == null) return;
+
+            if (!string.IsNullOrEmpty(data.Name))
+            {
+                dpGroup.Name = data.Name;
+            }
+
+            if (data.Id > 0)
+            {
+                dpGroup.Id = data.Id;
+            }
         }
     }
 }
+    
+

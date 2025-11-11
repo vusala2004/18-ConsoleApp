@@ -16,6 +16,7 @@ namespace Service.Services.Implementations
         public GroupService()
         {
             groupRepository = new GroupRepository();
+
         }
 
         public Group Create(Group group)
@@ -31,17 +32,59 @@ namespace Service.Services.Implementations
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+           Group group = GetById(id);   
+
+            groupRepository.Delete(group);
         }
 
-        public Group GeyById(int id)
+        
+        public List<Group> GetAll()
         {
-            throw new NotImplementedException();
+            return groupRepository.GetAll();
+        }
+
+        public Group GetById(int id)
+        {
+            Group group=groupRepository.Get(g=>g.Id==id);
+            if (group is null) return null;
+             return group;
         }
 
         public Group Update(int id, Group group)
         {
-            throw new NotImplementedException();
+            Group dbGroup = GetById(id);
+
+            if (dbGroup is null) return null;
+
+            group.Id = id;
+
+            groupRepository.Update(group);
+
+            return GetById(id);
+
         }
+        
+        public List<Group> Search(string name)
+        {
+            return groupRepository.GetAll(g => g.Name.Trim().ToLower().Contains(name.Trim().ToLower()));
+        }
+
+        public Group GetByTeacher(string groupTeacher)
+        {
+            Group group = groupRepository.Get(g => g.Teacher == groupTeacher);
+            if (group is null) return null;
+            return group;
+        }
+
+        Group IGroupService.GetByRoom(string groupRoom)
+        {
+            Group group = groupRepository.Get(g => g.Room == groupRoom);
+            if (group is null) return null;
+            return group;
+        }
+
+       
+
+        
     }
 }
